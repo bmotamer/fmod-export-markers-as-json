@@ -89,6 +89,6 @@ studio.menu.addMenuItem({
 			output.Markers.push(obj);
 		}
 
-		system.print(output.stringify());
+		studio.system.print(JSON.stringify(output));
 	}
 });
